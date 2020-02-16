@@ -19,7 +19,7 @@ const config = {
             allow_origin: '*'
         },
         trans: {
-            ffmpeg: __dirname + 'ffmpeg/ffmpeg.exe',
+            ffmpeg: __dirname + '/ffmpeg/ffmpeg.exe',
             tasks: [
                 {
                     app: 'live',
