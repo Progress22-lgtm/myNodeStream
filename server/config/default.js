@@ -19,7 +19,7 @@ const config = {
             allow_origin: '*'
         },
         trans: {
-            ffmpeg: __dirname + '/ffmpeg/ffmpeg.exe',
+            ffmpeg: "https://drive.google.com/open?id=1541jWQNDtdXmeo_hHBdBRRFJlYL5sJZN",
             tasks: [
                 {
                     app: 'live',
