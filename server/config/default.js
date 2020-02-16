@@ -1,7 +1,9 @@
+const port = require("/server/port");
+
 const config = {
     server: {
         secret: 'kjVkuti2xAyF3JGCzSZTk0YWM5JhI9mgQW4rytXc',
-        port : 3333
+        port : port
     },
     rtmp_server: {
         rtmp: {
